@@ -26,76 +26,76 @@ The parameters for each endpoint are taken directly from google-play-scraper. Fo
 
 Get the top free apps (default list)
 ```http
-GET /api/apps/
+GET /cors/api/apps/
 ```
 
 Get the top free apps with full detail
 
 ```http
-GET /api/apps/?fullDetail=true
+GET /cors/api/apps/?fullDetail=true
 ```
 
 Get the top selling action games in russia
 
 ```http
-GET /api/apps/?collection=topselling_paid&category=GAME_ACTION&country=ru
+GET /cors/api/apps/?collection=topselling_paid&category=GAME_ACTION&country=ru
 ```
 
 Get an app detail
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/
+GET /cors/api/apps/com.dxco.pandavszombies/
 ```
 
 Get an app detail in spanish
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/?lang=es
+GET /cors/api/apps/com.dxco.pandavszombies/?lang=es
 ```
 
 Get app required permissions with full descriptions
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/permissions/
+GET /cors/api/apps/com.dxco.pandavszombies/permissions/
 ```
 
 Get app required permissions (short list)
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/permissions/?short=true
+GET /cors/api/apps/com.dxco.pandavszombies/permissions/?short=true
 ```
 
 Get similar apps
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/similar/
+GET /cors/api/apps/com.dxco.pandavszombies/similar/
 ```
 
 Get an app's reviews
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/reviews/
+GET /cors/api/apps/com.dxco.pandavszombies/reviews/
 ```
 
 Search apps
 
 ```http
-GET /api/apps/?q=facebook
+GET /cors/api/apps/?q=facebook
 ```
 
 Get search suggestions for a partial term
 
 ```http
-GET /api/apps/?suggest=face
+GET /cors/api/apps/?suggest=face
 ```
 
 Get apps by developer
 
 ```http
-GET /api/developers/DxCo%20Games/
+GET /cors/api/developers/DxCo%20Games/
 ```
 
 Get categories
 ```http
-GET /api/categories/
+GET /cors/api/categories/
 ```
