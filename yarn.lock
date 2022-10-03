@@ -1050,10 +1050,10 @@ globals@^13.6.0, globals@^13.9.0:
   dependencies:
     type-fest "^0.20.2"
 
-google-play-scraper@^9.0.0:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/google-play-scraper/-/google-play-scraper-9.0.1.tgz#258892aa81fe12f9d663ca240c7048498e9bd972"
-  integrity sha512-zuQbaPHM1RYxco14/lY2qlotBvm6B/3/PItwkyefbG0wY3Jpm34TRRIjEw+hS0DtJpzudYVByr27AjcGwBA1Pw==
+google-play-scraper@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/google-play-scraper/-/google-play-scraper-9.1.1.tgz#ea27f551306e63f435dd8d707add460269fe9522"
+  integrity sha512-feolKsEk9lEVOpDVbxftoA6t3oG5xt9GgvkMDrC20yY9YYQt2r7blT1KRptW79hW63x746k21dE07QB0yf+MZw==
   dependencies:
     cheerio "^1.0.0-rc.10"
     debug "^2.2.0"

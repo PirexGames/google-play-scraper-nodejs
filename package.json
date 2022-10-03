@@ -15,7 +15,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "google-play-scraper": "^9.0.0"
+    "google-play-scraper": "^9.1.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
